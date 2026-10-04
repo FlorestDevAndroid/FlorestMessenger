@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FlorestMessenger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/primary_light</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.FlorestMessenger.NoActionBar" parent="Theme.FlorestMessenger">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Florest.Dark" parent="Theme.FlorestMessenger">
+        <item name="colorPrimary">#6366F1</item>
+        <item name="android:windowBackground">#0F1117</item>
+        <item name="colorSurface">#1A1D27</item>
+        <item name="android:statusBarColor">#0F1117</item>
+        <item name="android:navigationBarColor">#0F1117</item>
+        <item name="android:textColorPrimary">#E8EAED</item>
+        <item name="android:colorBackground">#0F1117</item>
+    </style>
+
+    <style name="Theme.Florest.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#4F46E5</item>
+        <item name="colorPrimaryVariant">#4338CA</item>
+        <item name="android:windowBackground">#F3F4F6</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="android:statusBarColor">#E5E7EB</item>
+        <item name="android:navigationBarColor">#F3F4F6</item>
+        <item name="android:textColorPrimary">#111827</item>
+        <item name="android:textColorSecondary">#4B5563</item>
+        <item name="android:colorBackground">#F3F4F6</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Florest.Amoled" parent="Theme.FlorestMessenger">
+        <item name="colorPrimary">#818CF8</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="colorSurface">#0A0A0A</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:colorBackground">#000000</item>
+    </style>
+
+    <style name="Theme.Florest.Blue" parent="Theme.FlorestMessenger">
+        <item name="colorPrimary">#3B82F6</item>
+        <item name="android:windowBackground">#0B1220</item>
+        <item name="colorSurface">#111B2E</item>
+        <item name="android:statusBarColor">#0B1220</item>
+        <item name="android:navigationBarColor">#0B1220</item>
+        <item name="android:textColorPrimary">#E0F2FE</item>
+        <item name="android:colorBackground">#0B1220</item>
+    </style>
+
+    <style name="Theme.Florest.Purple" parent="Theme.FlorestMessenger">
+        <item name="colorPrimary">#A855F7</item>
+        <item name="android:windowBackground">#140B1F</item>
+        <item name="colorSurface">#1E1030</item>
+        <item name="android:statusBarColor">#140B1F</item>
+        <item name="android:navigationBarColor">#140B1F</item>
+        <item name="android:textColorPrimary">#F3E8FF</item>
+        <item name="android:colorBackground">#140B1F</item>
+    </style>
+
+    <style name="Theme.Florest.Green" parent="Theme.FlorestMessenger">
+        <item name="colorPrimary">#22C55E</item>
+        <item name="android:windowBackground">#0A1410</item>
+        <item name="colorSurface">#12241A</item>
+        <item name="android:statusBarColor">#0A1410</item>
+        <item name="android:navigationBarColor">#0A1410</item>
+        <item name="android:textColorPrimary">#DCFCE7</item>
+        <item name="android:colorBackground">#0A1410</item>
+    </style>
+</resources>

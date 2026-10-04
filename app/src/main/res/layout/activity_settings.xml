@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/surface"
+        app:title="Настройки"
+        app:titleTextColor="@color/text_primary"
+        
+        app:navigationIconTint="@color/text_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цветовая схема"
+        android:textColor="@color/text_muted"
+        android:padding="16dp" />
+
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnDark" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Тёмная" android:layout_marginHorizontal="16dp" android:layout_marginBottom="8dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnLight" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Светлая" android:layout_marginHorizontal="16dp" android:layout_marginBottom="8dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnAmoled" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="AMOLED" android:layout_marginHorizontal="16dp" android:layout_marginBottom="8dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnBlue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Синяя" android:layout_marginHorizontal="16dp" android:layout_marginBottom="8dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnPurple" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Фиолетовая" android:layout_marginHorizontal="16dp" android:layout_marginBottom="8dp"/>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnGreen" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Зелёная" android:layout_marginHorizontal="16dp" android:layout_marginBottom="8dp"/>
+</LinearLayout>

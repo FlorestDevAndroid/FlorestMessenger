@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "310010673314",
+    "project_id": "florestmessenger",
+    "storage_bucket": "florestmessenger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310010673314:android:93821818d44dfb7c9abffb",
+        "android_client_info": {
+          "package_name": "ru.florestdev.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkf2HPkbyA3q8jgDp7UcabZ-LudErr5GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

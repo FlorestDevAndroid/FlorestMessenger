@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlorestMessenger</string>
+    <string name="login">Войти</string>
+    <string name="register">Регистрация</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="logout">Выйти</string>
+    <string name="groups">Группы</string>
+    <string name="dms">Личные сообщения</string>
+    <string name="bots">Мои боты</string>
+    <string name="account">Аккаунт</string>
+    <string name="support">Поддержка</string>
+    <string name="send">Отправить</string>
+    <string name="message_hint">Сообщение…</string>
+    <string name="create_group">Создать группу</string>
+    <string name="join">Присоединиться</string>
+    <string name="open">Открыть</string>
+    <string name="online">онлайн</string>
+    <string name="bot">бот</string>
+    <string name="no_messages">Нет сообщений</string>
+    <string name="select_contact">Выберите собеседника</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_login">Неверный логин или пароль</string>
+    <string name="loading">Загрузка…</string>
+    <string name="welcome">Привет, %1$s!</string>
+    <string name="home">Главная</string>
+    <string name="search">Поиск…</string>
+    <string name="group_name">Название группы</string>
+    <string name="group_desc">Описание (необязательно)</string>
+    <string name="create">Создать</string>
+    <string name="members">Участники</string>
+    <string name="reply">Ответить</string>
+    <string name="media">Медиа</string>
+    <string name="connecting">Подключение…</string>
+    <string name="connected">Подключено</string>
+    <string name="disconnected">Отключено</string>
+</resources>

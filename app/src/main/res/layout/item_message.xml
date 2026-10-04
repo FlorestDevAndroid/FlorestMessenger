@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:gravity="top">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="48dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_bubble_other"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/primary_light"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/ivMedia"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:maxHeight="320dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:layout_marginTop="4dp"
+            android:contentDescription="photo" />
+
+        <FrameLayout
+            android:id="@+id/videoContainer"
+            android:layout_width="240dp"
+            android:layout_height="180dp"
+            android:visibility="gone"
+            android:layout_marginTop="4dp"
+            android:background="#000000">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btnVideoPlay"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="play video" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/audioContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:layout_marginTop="4dp"
+            android:padding="4dp">
+
+            <ImageButton
+                android:id="@+id/btnAudioPlay"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="play audio" />
+
+            <TextView
+                android:id="@+id/tvAudioLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Аудио"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:paddingStart="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:background="@drawable/bg_input"
+            android:text="⬇ Скачать файл"
+            android:textColor="@color/primary_light"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:id="@+id/layoutButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/tvReactions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
